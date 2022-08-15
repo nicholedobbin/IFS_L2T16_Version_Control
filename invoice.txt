@@ -1,0 +1,21 @@
+Order Number: 1002
+Customer: Mickey Mouse
+Email: mickey@mousehouse.com
+Phone number: 011 222 333
+Location: Johannesburg
+ 
+You have ordered the following from Goofy's Pizzeria in Johannesburg: 
+
+2 x Pizza (R14.27) 
+1 x Pasta (R12.15) 
+
+Special Instructions: no garlic please.
+
+Total: R40.69
+
+Spike Fenton is nearest to the restaurant and so s/he will be delivering your order to you at: 
+
+12 Mouse Lane
+Magic Kingdom
+
+If you need to contact the restaurant, their number is 011 444 555.

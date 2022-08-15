@@ -1,0 +1,63 @@
+========================================= L2T11 Project Description ===================================================
+
+This Capstone Project's task is to refactor my L2T07 Capstone Project. The descriptions of changes made
+can be found in the comments at the top of each class (Main, Customer, Restaurant, Driver and Invoice).
+
+Below is the original description of the L2T7 project's program and functionality, along with the refactored
+class descriptions for new Driver and Invoice classes:
+
+------------------------------------------- Main.Java Description -----------------------------------------------------
+
+---> Note: Sections (f) and (g) were removed from Main.java in my refactoring, creating new classes for
+          Invoice and Driver, in order to make my code more modular and follow OOP guidelines.
+
+    The 'Main.java' file:
+        (a) uses a 'try..catch' method with File and Scanner classes to get and read the file 'drivers.txt',
+            and add the text content to a string.
+        (b) uses a scanner object to get user input for restaurant and customer details, with a 'while' loop
+            and nested 'if..else if' statement to allow the user to enter additional meals.
+        (c) uses a method that returns the required Restaurant information for the bottom section of the invoice.
+        (d) creates Customer and Restaurant instances by calling their class constructor methods.
+        (e) gets details of Customer and Restaurant instances by calling 'get..DetailsFor..' methods on instances.
+        (f) uses a 2D array to store driver details, to be compared with the inputted restaurant location.
+        (g) uses a 'for' loop, nested 'if..else' statement, and 'try..catch' method to:
+            - check if the driver location matches the restaurant location.
+            - If true, create an invoice text file with the order information, using Formatter class.
+            - Else, create an invoice text file with a message that the delivery can't be made, using
+              Formatter class.
+
+------------------------------------------- Customer.Java Description ------------------------------------------------
+
+  This file creates a Customer class, using:
+        (a) a constructor method which adds attributes to the 'Customer' instance.
+        (b) a method that returns the required Customer information for the top section of the invoice.
+        (c) a method that returns the required Customer information for the bottom section of the invoice.
+
+------------------------------------------- Restaurant.Java Description ----------------------------------------------
+
+    This file creates a Restaurant class, using:
+        (a) a constructor method which adds attributes to the 'Restaurant' instance and calls methods (b) and (c).
+        (b) a method with a 'for' loop and 2D array that gets and concatenates all the meal information entered
+            by the user (i.e. meal type, price and number of meals), called in Constructor.
+        (c) a method with a 'for' loop that calculates the total price of all the meals entered by the user, called
+            in Constructor.
+        (d) a method that returns the required Restaurant information for the top section of the invoice.
+        (e) a method that returns the required Restaurant information for the bottom section of the invoice.
+
+------------------------------------------- Driver.Java Description -------------------------------------------------
+
+    This file creates a Driver class, using:
+        (a) a constructor method which adds attributes to the 'Driver' instance.
+        (b) a method with a 'try-catch' block to get and save information from the Drivers text file to a
+            2D Array, handling errors and exceptions for reading the text file.
+        (c) a method with a 'for' loop to create a new driver instance for each element of the 2D Array and
+            add each instance to an Array List of Driver Objects.
+
+------------------------------------------- Invoice.Java Description -------------------------------------------------
+
+    This file creates an Invoice class, using:
+        (a) a constructor method which adds attributes to the 'Invoice' instance.
+        (b) a method with a nested 'for' loop, 'if..else' statement and 'try-catch' block to
+            compare Driver location with Restaurant location. If they match, format and print the invoice
+            with order information. If they do not match, format and print the invoice with a message that the
+            delivery cannot be made (using the 'try-catch' block to handle errors and exceptions for file formatting).

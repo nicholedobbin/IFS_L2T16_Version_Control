@@ -1,0 +1,23 @@
+======================================= L2T11 Capstone Project: References ============================================
+
+    Google Java Style Guide:
+        *   https://google.github.io/styleguide/javaguide.html#s4.2-block-indentation
+
+    Rounding numbers to specified decimal spaces:
+        *   https://mkyong.com/java/how-to-round-double-float-value-to-2-decimal-points-in-java/
+        *   https://stackoverflow.com/questions/11701399/round-up-to-2-decimal-places-in-java
+        *   https://www.baeldung.com/java-round-decimal-number
+
+    Refactoring in Java:
+        *   https://www.methodsandtools.com/archive/archive.php?id=4
+        *   https://www.baeldung.com/cs/refactoring
+        *   https://www.javacodegeeks.com/2019/05/5-refactoring-principles-example.html
+
+    Java OOP:
+        *   https://www.w3schools.com/java/java_oop.asp#:~:text=Java%20%2D%20What%20is%20OOP%3F,contain%20both%20data%20and%20methods.
+        *   https://www.freecodecamp.org/news/java-object-oriented-programming-system-principles-oops-concepts-for-beginners/
+        *   https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
+
+
+
+
